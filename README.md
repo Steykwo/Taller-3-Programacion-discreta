@@ -7,7 +7,7 @@ Los integrantes somos:
 
 El lenguaje utilizado para resolver los ejercicios fue Python, en su versión más reciente. Y para poder ejecutar cada ejercicio simplemente se debe abrir en su editor de código de preferencia con las configuraciones necesarias para la ejecución del lenguaje de python, y una vez configurado, simplemente ejecutar el archivo de código una vez por ejercicio.
 
-Acerca del uso de librerías, Acerca del uso de librerías, no se usaron librerías extrernas a Python por lo que no es necesario instalar ninguna para poder ejecutar todos los archivos .py.
+Acerca del uso de librerías, no se usaron librerías extrernas a Python por lo que no es necesario instalar ninguna para poder ejecutar todos los archivos .py.
 
 Se realizaron en su totalidad los 10 ejercicios propuestos en el Taller, los cuales son:
 
