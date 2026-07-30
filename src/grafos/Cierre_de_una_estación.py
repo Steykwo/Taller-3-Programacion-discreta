@@ -164,8 +164,11 @@ for origen, destino in pares:
     antes[(origen,destino)] = distancia
 
 #Se elimina un vertice
-print("El vertice a eliminar será el de Hospital, por lo que se eliminará del grafo")
-eliminar_vertice(grafo_inicial, "Hospital")
+vertice_a_eliminar = input("Ingrese el nombre del vertice que desea eliminar, que haga parte del grafo dado: ")
+if vertice_a_eliminar not in grafo_inicial:
+    print(f"\nError: el vértice '{vertice_a_eliminar}' no existe en el grafo")
+else:
+    eliminar_vertice(grafo_inicial, vertice_a_eliminar)
 
 #Creo un diccionario donde guardo la distancia despues de borrar el vertice Hospital
 despues = {}
